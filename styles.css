@@ -1,0 +1,42 @@
+body{
+    background-color:#178388;
+}
+.logo{
+    background-color:#ffffff;
+    padding:.5rem;
+    width: 4rem;
+    margin:.5rem;
+}
+h1, h2{
+    margin:2rem;
+    text-align:center;
+}
+h1{
+    background-color:#ffffff;
+    font-size:26px;
+    padding:1.2rem 1rem 1.2rem;
+}
+header{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+}
+nav{
+    padding:.5rem;
+}
+nav a{
+    font-size:18px;
+    padding:.5rem 1rem;
+    text-decoration:none;
+    background-color:#fffeee;
+    color:#000000;
+}
+nav a:hover{
+    background-color:#abebeb;
+}
+.image{
+    width:400px;
+}
+
+questions: dolphins table
