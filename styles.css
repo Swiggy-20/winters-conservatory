@@ -35,8 +35,10 @@ nav a{
 nav a:hover{
     background-color:#abebeb;
 }
-.image{
+main img{
     width:400px;
+    position:relative;
 }
+
 
 questions: dolphins table
