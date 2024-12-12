@@ -24,6 +24,8 @@ header{
 }
 nav{
     padding:.5rem;
+    display:block;
+    margin:auto;
 }
 nav a{
     font-size:18px;
@@ -31,14 +33,106 @@ nav a{
     text-decoration:none;
     background-color:#fffeee;
     color:#000000;
+    
 }
 nav a:hover{
     background-color:#abebeb;
 }
 main img{
     width:400px;
-    position:relative;
+    display:block;
+    margin:auto;
 }
-
-
-questions: dolphins table
+main>div:nth-child(even){
+    background-color:#fffeee;
+    padding:0.5rem 0.5rem 1rem 0.5rem;
+    margin:0.5rem;
+}
+main>div:nth-child(odd){
+    background-color:#ffffff;
+    padding:0.5rem 0.5rem 1rem 0.5rem;
+    margin:0.5rem;
+}
+.table img{
+    width:200px;
+}
+label,input{
+    display:block;
+}
+.gallery img{
+    padding:1rem;
+}
+@media (min-width:600px){
+    nav{
+        display:block;
+        margin:auto; 
+    }
+    nav a{
+        margin:0 .5rem 0 .5rem;
+    }
+    h1{
+        font-size:30px;
+    }
+    h2{
+        font-size:25px;
+    }
+    @media (min-width:940px){
+    h1{
+        font-size:50px;
+    }
+    h2{
+        font-size:40px;
+    }
+    .logo{
+        width:6rem;
+    }
+    nav a{
+        align-items:center;
+        font-size:25px;
+        margin:0 1rem 0 1rem;
+    }
+    nav{
+        display:block;
+        margin:auto;
+    }
+    main p{
+        font-size:20px;
+    }
+    ul{
+        font-size:20px;
+    }
+    @media (min-width:1450px){
+        h1{
+            font-size:60px;
+        }
+        main img{
+            width:600px;
+        }
+        .table img{
+            padding:0 0 1rem 0;
+        }
+        main p{
+            font-size:25px;
+        }
+        ul{
+            font-size:25px;
+        }
+        @media (min-width:1550px){
+            h1{
+                font-size:72px;
+            }
+            .logo{
+                width:9rem;
+            }
+            nav a{
+                font-size:30px;
+            }
+            @media (min-width:1600px){
+                h1{
+                    font-size:90px;
+                }
+            }
+        }
+    }
+}
+}
